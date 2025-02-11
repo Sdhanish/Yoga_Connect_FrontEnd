@@ -176,8 +176,8 @@ const NavBar = () => {
           </div>
 
           {/* Navigation Links */}
-          <div className="hidden  text-black dark:text-white md:block text-base uppercase tracking-widest">
-            <div className="flex text-primary font-semibold">
+          <div className="hidden  text-black dark:text-white md:block text-lg italic">
+            <div className="flex text-primary">
               <ul className="ml-10 flex items-center space-x-4 pr-4">
                 {navLinks.map((link) => (
                   <li key={link.route}>
@@ -287,8 +287,8 @@ const NavBar = () => {
                 {user && (
                   <li>
                     <NavLink
-                      className="font-thin text-sm
-                                     px-2 py-2 bg-secondary text-black rounded-md uppercase "
+                      className=" text-base font-bold
+                                     px-2 py-2 bg-secondary text-green-900 rounded-md"
                       onClick={handelLogout}
                     >
                       Logout

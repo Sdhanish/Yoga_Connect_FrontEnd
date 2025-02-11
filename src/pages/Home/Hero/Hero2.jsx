@@ -1,5 +1,5 @@
 import React from 'react';
-import banner2 from "../../../assets/home/hoem.jpg";
+import bgImg from '../../../assets/gallary/ba11.jpg';
 import { useNavigate } from 'react-router-dom';
 
 const Hero2 = () => {
@@ -9,12 +9,16 @@ const Hero2 = () => {
   };
 
   return (
-    <div
-      className="relative min-h-screen bg-cover"
-      style={{
-        backgroundImage: `linear-gradient(to right, rgba(255, 255, 255, 0.9) 60%, rgba(255, 255, 255, 0.6) 70%, rgba(255, 255, 255, 0)), url(${banner2})`,
-      }}
-    >
+ <div
+           className="relative min-h-screen bg-cover"
+           style={{
+            backgroundImage: `
+             linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 75%),
+            linear-gradient(to right, rgba(255, 255, 255, 0.9) 39%, rgba(255, 255, 255, 0) 55%, rgba(255, 255, 255,0)), 
+            url(${bgImg})
+          `,
+           }}
+         >
       {/* Content wrapper to keep text and buttons unaffected by the overlay */}
       <div className="relative min-h-screen flex justify-start pl-11 text-white items-center">
         <div
