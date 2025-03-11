@@ -1,5 +1,6 @@
 import React from 'react';
-import bgImg from '../../../assets/gallary/ba11.jpg';
+import bgImg2 from '../../../assets/gallary/ba11.jpg';
+import bgImg1 from '../../../assets/gallary/man.jpg';
 import { useNavigate } from 'react-router-dom';
 
 const Hero2 = () => {
@@ -15,7 +16,7 @@ const Hero2 = () => {
             backgroundImage: `
              linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 75%),
             linear-gradient(to right, rgba(255, 255, 255, 0.9) 39%, rgba(255, 255, 255, 0) 55%, rgba(255, 255, 255,0)), 
-            url(${bgImg})
+            url(${bgImg1})
           `,
            }}
          >
